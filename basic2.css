@@ -1,0 +1,80 @@
+.navbarScroll.navbarDark {
+    background-color: rgb(21, 156, 156);
+}
+
+
+.bgimage {
+    height: 100vh;
+    background: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28313.jpg?w=900&t=st=1678188965~exp=1678189565~hmac=6bcb6cc68d86af7031d768f9d222aa40476042414b258b4e65b71f1b6725cb3a');
+    background-size: cover;
+    position: relative;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(189, 71, 170);
+}
+
+
+.imageAboutPage {
+    width: 20%;
+}
+
+
+.SkillsText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.SkillsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .SkillsIcon {
+    color: #a4ac12;
+}
+
+.SkillsText:hover {
+    border: 1px solid #35437b;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.fa-facebook:hover,
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-twitch:hover,
+.fa-file:hover {
+    color: #930e96;
+}
+
+.fab,
+.fa {
+    color: #1e0d0d;
+}
+
+#contact {
+    background-color: #8c3b3b;
+    text-align: center;
+}
